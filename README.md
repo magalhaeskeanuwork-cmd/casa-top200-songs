@@ -1,4 +1,4 @@
-# CASA Top 200 Songs
+# CASA
 
 CASA is an independent Angolan music charts, audience and editorial platform. Built with Next.js App Router, React, TypeScript and Supabase.
 
