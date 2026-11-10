@@ -6,6 +6,7 @@ import CasaIntro from "@/components/CasaIntro";
 import CasaAds from "@/components/CasaAds";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://casacharts.digital"),
   title: "CASA | Música Angolana",
   description:
     "Classificação Angolana de Sons e Audiências. Charts, artistas e dados da música angolana.",
@@ -18,6 +19,22 @@ export const metadata: Metadata = {
     "Singles",
     "Álbuns",
   ],
+  icons: { icon: "/icon.svg" },
+  openGraph: {
+    type: "website",
+    locale: "pt_AO",
+    url: "/",
+    siteName: "CASA",
+    title: "CASA | Música Angolana",
+    description:
+      "Classificação Angolana de Sons e Audiências. Charts, artistas e dados da música angolana.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CASA | Música Angolana",
+    description:
+      "Classificação Angolana de Sons e Audiências. Charts, artistas e dados da música angolana.",
+  },
 };
 
 export default function RootLayout({
